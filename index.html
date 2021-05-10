@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <style>
+            * {
+                text-align: center;
+                background-color: lightslategray;
+            }
+            .E {
+                color: maroon;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            input, button {
+                background-color: gray;
+            }
+        </style>
+        <title>TAT | Login</title>
+    </head>
+    <body>
+        <h1 class='E'>TAT</h1>
+        <h5>Welcome Back!</h5>
+        <br>
+        <br>
+        <h4>ID</h4>
+        <input id='eyedee'>
+        <h4>access code</h4>
+        <input id='AC'>
+        <h4></h4>
+        <button id='Enter'>Login</button>
+        <script>
+            var ID = document.getElementById('eyedee');
+            var ac = document.getElementById('AC');
+            document.getElementById('Enter').addEventListener("click", function(){
+                if (document.getElementById('eyedee').innerHTML == "5102A7TEAZ") and (document.getElementById('AC').innerHTML == "Tatter_Toe");{
+                    window.location.assign("5102A7TEAZ.html")
+                };
+            });
+        </script>
+    </body>
+</htm>
